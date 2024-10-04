@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<minecraftItems lang="es">
+
+    </item>
+        <id>1</id>
+        <name>Mesa encantamientos</name>
+        <type>Objeto</type>
+        <rarity>raro</rarity>
+        <damage>Aplica el daño de pegar con la mano</damage>
+        <description>Se utiliza para encantar cosas</description>
+        <crafteable>Si</crafteable>
+        <materials>
+            <material>Libros</material>
+            <material>Diamante</material>
+            <material>Obsidiana</material>
+        </materials>
+    </item>
+
+    </item>
+        <id>2</id>
+        <name>Flecha</name>
+        <type>Objeto</type>
+        <rarity>comun</rarity>
+        <damage>Aplica el daño de pegar con la mano</damage>
+        <description>Se utiliza como municion del arco</description>
+        <crafteable>true</crafteable>
+        <materials>
+            <material>Pedernal</material>
+            <material>Pluma</material>
+            <material>Palo</material>
+        </materials>
+    </item>
+
+    </item>
+        <id>3</id>
+        <name>Alto horno</name>
+        <type>Objeto</type>
+        <rarity>comun</rarity>
+        <damage>Aplica el daño de pegar con la mano</damage>
+        <description>Se utiliza para fundir minerales mas rapido</description>
+        <crafteable>true</crafteable>
+        <enchantable>true</enchantable>
+        <materials>
+            <material>Horno</material>
+            <material>Lingote de hierro</material>
+            <material>Piedra lisa</material>
+        </materials>
+    </item>
+
+    <item>
+        <id>4</id>
+        <name>Espada de Diamante</name>
+        <type>Arma</type>
+        <rarity>Raro</rarity>
+        <damage>Aplica +7 de daño</damage>
+        <description>Se utiliza para defenderte de los enemigos</description>
+        <crafteable>true</crafteable>
+        <enchantable>true</enchantable>
+        <enchantments>
+            <enchantment>Aspecto igneo</enchantment>
+            <enchantment>Irrompibilidad</enchantment>
+        </enchantments>
+    </item>
+
+     <item>
+        <id>5</id>
+        <name>Pico de hierro</name>
+        <type>Utilidad</type>
+        <rarity>comun</rarity>
+        <damage>Aplica +4 de daño</damage>
+        <description>Se utiliza para picar minerales</description>
+        <crafteable>true</crafteable>
+        <enchantable>true</enchantable>
+        <enchantments>
+            <enchantment>Irrompibilidad</enchantment>
+            <enchantment>Fortuna</enchantment>
+        </enchantments>
+    </item>
+
+     <item>
+        <id>6</id>
+        <name>Arco</name>
+        <type>Arma</type>
+        <rarity>comun</rarity>
+        <damage>Aplica + 4 de daño</damage>
+        <description>Se utiliza para defenderte de los enemigos a distancia</description>
+        <crafteable>true</crafteable>
+        <enchantable>true</enchantable>
+        <enchantments>
+            <enchantment>Infinidad</enchantment>
+            <enchantment>Irrompibilidad</enchantment>
+        </enchantments>
+    </item>
+    
+</minecraftItems>

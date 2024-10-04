@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<minecraftItems lang="es">
+
+    <item>
+        <id>Identificador del ítem</id>
+        <name>Bloque de tierra</name>
+        <type>Bloque</type>
+        <rarity>No tiene rareza</rarity>
+        <damage>Aplica el daño de pegar con la mano</damage>
+        <description>Es un bloque que se puede colocar donde quieras</description>
+    </item>
+
+    <item>
+        <id>1</id>
+        <name>Espada de madera</name>
+        <type>Arma</type>
+        <rarity>Es de madera</rarity>
+        <damage>Pega +4 por golpe</damage>
+        <description>Es una espada que se utiliza para defenderte de enemigos</description>
+    </item>
+
+    <item>
+        <id>3</id>
+        <name>Arco</name>
+        <type>Arma</type>
+        <rarity>No tiene rareza</rarity>
+        <damage>Pega +4 por golpe</damage>
+        <description>Se utiliza par defenderte de enemigos a distancia</description>
+    </item>
+
+    <item>
+        <id>4</id>
+        <name>Cubo</name>
+        <type>Objeto</type>
+        <rarity>No tiene rareza</rarity>
+        <damage>Aplica el daño de pegar con la mano</damage>
+        <description>Se utiliza para coger, agua, lava, leche.....</description>
+    </item>
+
+    <item>
+        <id>5</id>
+        <name>Cofre</name>
+        <type>Objeto</type>
+        <rarity>No tiene rareza</rarity>
+        <damage>Aplica el daño de pegar con la mano</damage>
+        <description>Se utiliza para guardar tus materiales</description>
+    </item>
+
+</minecraftItems>
