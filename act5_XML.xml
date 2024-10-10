@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<curriculum>
+
+    <informacion_personal>
+
+        <nombre>Marc Sendra Sapena</nombre>
+        <fecha_nacimiento>18/02/2004</fecha_nacimiento>
+        <edad>20 años</edad>
+
+    </informacion_personal>
+
+    <sobre_mi>
+
+        <descripcion>Vivo en Orba, me encanta la informática, me
+         considero muy trabajador, y respetuoso, soy puntual y tengo 
+         muchas ganas de aprender.
+        </descripcion>
+
+    </sobre_mi>
+
+    <informacion_adicional>
+
+        <carnet_conducir>Carné de conducir</carnet_conducir>
+        <vehiculo_propio>Vehículo propio</vehiculo_propio>
+        <disponibilidad>Disponibilidad total</disponibilidad>
+
+    </informacion_adicional>
+
+    <contacto>
+
+        <telefono>695414242</telefono>
+        <correo>Marcsapena2004@gmail.com</correo>
+        <direccion>Avenida de las americas, 16</direccion>
+
+    </contacto>
+
+    <experiencia_laboral>
+
+        <trabajo>
+
+            <titulo>Pinche de cocina</titulo>
+            <lugar>En un bar de Sanet i Negrals</lugar>
+            <año>2021</año>
+            <duracion>unos 2 meses</duracion>
+
+        </trabajo>
+
+        <trabajo>
+
+            <titulo>Repositor en un supermercado</titulo>
+            <lugar>Masymas de Orba</lugar>
+            <año>2022</año>
+            <duracion>unos 2 meses</duracion>
+
+        </trabajo>
+        <trabajo>
+
+            <titulo>Repartidor de Amazon</titulo>
+            <lugar>Amazon</lugar>
+            <año>2023</año>
+            <duracion>unos 2 meses</duracion>
+
+        </trabajo>
+
+    </experiencia_laboral>
+
+    <estudios>
+
+        <instituto>
+
+            <nombre>IES Hispanidad de Orba</nombre>
+            <descripcion>Educación secundaria obligatoria</descripcion>
+            <años>2013/2020</años>
+
+        </instituto>
+
+        <grado>
+
+            <nombre>IES Historiador Chabas, Denia</nombre>
+            <descripcion>Grado medio de sistemas microinformáticos y redes</descripcion>
+            <años>2021/2023</años>
+
+        </grado>
+         
+    </estudios>
+
+    <idiomas>
+
+        <idioma>
+
+            <nombre>Castellano y Valenciano</nombre>
+            <nivel>Nativo</nivel>
+
+        </idioma>
+
+        <idioma>
+
+            <nombre>Inglés</nombre>
+            <nivel>Nivel medio/bajo</nivel>
+
+        </idioma>
+
+        <idioma>
+
+            <nombre>Francés</nombre>
+            <nivel>Nivel bajo</nivel>
+
+        </idioma>
+
+    </idiomas>
+
+</curriculum>
