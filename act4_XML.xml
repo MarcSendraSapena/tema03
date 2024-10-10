@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<notaslang="es">
+
+    <estudiante>
+
+        <nombre>Marc</nombre>
+        <apeliidos> Sendra Sapena </apellidos>
+        <edad>20</edad>
+        <nia>54375609K</nia>
+        <telefon>695484155</telefon>
+        
+    </estudiante>
+
+    <assignaturas>
+    
+        <assignatura>
+
+            <nombre>Fundamentos de hardware</nombre>
+            <nota>2</nota>
+
+        </assignatura>
+
+         <assignatura>
+            <nombre>Planificacion y administracion de redes</nombre>
+            <nota>6</nota>
+
+        </assignatura>
+
+         <assignatura>
+
+            <nombre>Ingles</nombre>
+            <nota>4</nota>
+
+        </assignatura>
+        
+         <assignatura>
+
+            <nombre>Base de datos</nombre>
+            <nota>9</nota>
+
+        </assignatura>
+
+         <assignatura>
+
+            <nombre>FOL</nombre>
+            <nota>5</nota>
+
+        </assignatura>
+
+    </assignaturas>
+
+</notas>
