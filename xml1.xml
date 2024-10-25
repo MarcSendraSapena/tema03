@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE minecraftItems SYSTEM "dtd1.dtd">
+<minecraftItems lang="es">
+
+    </item>
+        <id>1</id>
+        <name>Mesa encantamientos</name>
+        <type>Objeto</type>
+        <rarity>Raro</rarity>
+        <damage>No aplica</damage>
+        <description>Sirve para encantar</description>  
+    </item>
+
+    </item>
+        <id>2</id>
+        <name>Mesa encantamientos</name>
+        <type>Objeto</type>
+        <rarity>Raro</rarity>
+        <damage>No aplica</damage>
+        <description>Sirve para encantar</description>  
+    </item>
+    
+</minecraftItems>
