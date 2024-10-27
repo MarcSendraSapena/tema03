@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE minecraftItems SYSTEM "dtd2.dtd">
+
+<minecraftItems lang="es">
+
+    <item id="i1" rareza="común" crafteable="true" encantable="true">
+        <name>Mesa de encantamientos</name>
+        <type>bloque</type>
+        <damage>No aplica</damage>
+        <descripcion>Sirve para encantar</descripcion>
+        <materiales>
+            <material>Obsidiana</material>
+            <material>Libro</material>
+        </materiales>
+        <encantamientos>
+            <encantamiento>Durabilidad</encantamiento>
+            <encantamiento>Eficiencia</encantamiento>
+        </encantamientos>
+    </item>
+
+    <item id="i2" rareza="épico" crafteable="false" encantable="true">
+        <name>Espada de diamante</name>
+        <type>arma</type>
+        <damage>7</damage>
+        <descripcion>Arma poderosa para combate</descripcion>
+        <materiales>
+            <material>Diamante</material>
+            <material>Palo</material>
+        </materiales>
+        <encantamientos>
+            <encantamiento>Filo</encantamiento>
+            <encantamiento>Aspecto Ígneo</encantamiento>
+        </encantamientos>
+    </item>
+
+</minecraftItems>
+
