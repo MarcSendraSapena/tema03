@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tickets SYSTEM "dtd3.dtd">
+<tickets>
+    <!-- Tiquet 1 -->
+    <ticket>
+        <membrete>
+            <razon_social>Empresa X</razon_social>
+            <cif>12345678A</cif>
+            <direccion>Calle Falsa 123</direccion>
+            <codigo_postal>28080</codigo_postal>
+            <poblacion>Madrid</poblacion>
+            <telefono>910000000</telefono>
+        </membrete>
+
+        <cabecera>
+            <numero_ticket>001</numero_ticket>
+            <fecha>2023-10-30</fecha>
+            <hora>12:00</hora>
+            <tpv>TPV1</tpv>
+        </cabecera>
+
+        <lineas>
+            <linea>
+                <cantidad>1</cantidad>
+                <codigo_articulo>A001</codigo_articulo>
+                <descripcion>Producto A</descripcion>
+                <precio>1.50</precio>
+                <importe>3.00</importe>
+            </linea>
+            <linea>
+                <cantidad>2</cantidad>
+                <codigo_articulo>A002</codigo_articulo>
+                <descripcion>Producto B</descripcion>
+                <precio>2.00</precio>
+                <importe>2.00</importe>
+            </linea>
+        </lineas>
+        <resumen>
+            <forma_de_pago>Tarjeta</forma_de_pago>
+            <total>7.70</total>
+        </resumen>
+    </ticket>
+    
+    <!-- Tiquet 2 -->
+    <ticket>
+        <membrete>
+            <razon_social>Empresa X</razon_social>
+            <cif>12345678A</cif>
+            <direccion>Calle Falsa 123</direccion>
+            <codigo_postal>28080</codigo_postal>
+            <poblacion>Madrid</poblacion>
+            <telefono>910000000</telefono>
+        </membrete>
+        <cabecera>
+            <numero_ticket>002</numero_ticket>
+            <fecha>2023-10-30</fecha>
+            <hora>15:30</hora>
+            <tpv>TPV2</tpv>
+        </cabecera>
+        <lineas>
+            <linea>
+                <cantidad>3</cantidad>
+                <codigo_articulo>B001</codigo_articulo>
+                <descripcion>Producto D</descripcion>
+                <precio>1.20</precio>
+                <importe>1.20</importe>
+            </linea>
+            <linea>
+                <cantidad>4</cantidad>
+                <codigo_articulo>B002</codigo_articulo>
+                <descripcion>Producto E</descripcion>
+                <precio>0.80</precio>
+                <importe>3.20</importe>
+            </linea>
+        </lineas>
+        <resumen>
+            <forma_de_pago>Efectivo</forma_de_pago>
+            <total>6.40</total>
+        </resumen>
+    </ticket>
+</tickets>
