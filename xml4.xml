@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE partida SYSTEM "dtd3.dtd">
+<partida>
+    <jugadores>
+        <jugador>
+            <nombre>Paco</nombre>
+            <simbolo>X</simbolo>
+        </jugador>
+        <jugador>
+            <nombre>Roberto</nombre>
+            <simbolo>O</simbolo>
+        </jugador>
+    </jugadores>
+    <turnos>
+        <turno num="1">
+            <jugador>Paco</jugador>
+            <posicion>1,1</posicion>
+        </turno>
+        <turno num="2">
+            <jugador>Roberto</jugador>
+            <posicion>1,2</posicion>
+        </turno>
+        <turno num="3">
+            <jugador>Paco</jugador>
+            <posicion>2,2</posicion>
+        </turno>
+        <turno num="4">
+            <jugador>Roberto</jugador>
+            <posicion>3,1</posicion>
+        </turno>
+    </turnos>
+</partida>
