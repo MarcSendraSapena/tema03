@@ -1,0 +1,13 @@
+<!ELEMENT partida (jugadores, turnos)>
+    
+<!ELEMENT jugadores (jugador+)>
+<!ELEMENT jugador (nombre, simbolo)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT simbolo (#PCDATA)>
+    
+<!ELEMENT turnos (turno+)>
+<!ELEMENT turno (jugador, posicion)>
+<!ELEMENT jugador (#PCDATA)>
+<!ELEMENT posicion (#PCDATA)>
+    
+<!ATTLIST turno num ID #REQUIRED>
