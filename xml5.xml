@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE curriculum SYSTEM "dtd5.dtd">
+
+<curriculum>
+
+    <informacion_personal>
+        <nombre>Juan Pérez García</nombre>
+        <fecha_nacimiento>15/06/1999</fecha_nacimiento>
+        <edad>25 años</edad>
+    </informacion_personal>
+
+    <sobre_mi>
+        <descripcion>Apasionado por la tecnología, con interés en aprender constantemente. Soy una persona trabajadora, responsable y con habilidades de resolución de problemas.</descripcion>
+    </sobre_mi>
+
+    <informacion_adicional>
+        <carnet_conducir>Carné de conducir tipo B</carnet_conducir>
+        <vehiculo_propio>Vehículo propio</vehiculo_propio>
+        <disponibilidad>Disponibilidad inmediata</disponibilidad>
+    </informacion_adicional>
+
+    <contacto>
+        <telefono>612345678</telefono>
+        <correo>juanperez1999@example.com</correo>
+        <direccion>Calle Falsa 123, Ciudad Ejemplo</direccion>
+    </contacto>
+
+    <experiencia_laboral>
+        <trabajo>
+            <titulo>Asistente de cocina</titulo>
+            <lugar>Restaurante Los Sabores</lugar>
+            <ano>2018</ano>
+            <duracion>3 meses</duracion>
+        </trabajo>
+        <trabajo>
+            <titulo>Repositor de supermercado</titulo>
+            <lugar>Supermercados La Gran Compra</lugar>
+            <ano>2019</ano>
+            <duracion>2 meses</duracion>
+        </trabajo>
+        <trabajo>
+            <titulo>Conductor de entregas</titulo>
+            <lugar>Empresa de Envios Rápidos</lugar>
+            <ano>2020</ano>
+            <duracion>4 meses</duracion>
+        </trabajo>
+    </experiencia_laboral>
+
+    <estudios>
+        <instituto>
+            <instituto_nombre>IES Ejemplar</instituto_nombre>
+            <instituto_descripcion>Educación secundaria obligatoria</instituto_descripcion>
+            <instituto_años>2010/2017</instituto_años>
+        </instituto>
+        <grado>
+            <grado_nombre>IES Tecnología Avanzada</grado_nombre>
+            <grado_descripcion>Grado medio en sistemas informáticos y redes</grado_descripcion>
+            <grado_años>2018/2020</grado_años>
+        </grado>
+    </estudios>
+
+    <idiomas>
+        <idioma>
+            <idioma_nombre>Español</idioma_nombre>
+            <nivel>Nativo</nivel>
+        </idioma>
+        <idioma>
+            <idioma_nombre>Inglés</idioma_nombre>
+            <nivel>Nivel medio</nivel>
+        </idioma>
+        <idioma>
+            <idioma_nombre>Francés</idioma_nombre>
+            <nivel>Nivel básico</nivel>
+        </idioma>
+    </idiomas>
+
+</curriculum>

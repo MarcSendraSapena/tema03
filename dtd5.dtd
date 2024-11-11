@@ -1,0 +1,41 @@
+<!ELEMENT curriculum (informacion_personal, sobre_mi, informacion_adicional, contacto, experiencia_laboral, estudios, idiomas)>
+
+<!ELEMENT informacion_personal (nombre, fecha_nacimiento, edad)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT fecha_nacimiento (#PCDATA)>
+<!ELEMENT edad (#PCDATA)>
+
+<!ELEMENT sobre_mi (descripcion)>
+<!ELEMENT descripcion (#PCDATA)>
+
+<!ELEMENT informacion_adicional (carnet_conducir, vehiculo_propio, disponibilidad)>
+<!ELEMENT carnet_conducir (#PCDATA)>
+<!ELEMENT vehiculo_propio (#PCDATA)>
+<!ELEMENT disponibilidad (#PCDATA)>
+
+<!ELEMENT contacto (telefono, correo, direccion)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT correo (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
+
+<!ELEMENT experiencia_laboral (trabajo+)>
+<!ELEMENT trabajo (titulo, lugar, ano, duracion)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT lugar (#PCDATA)>
+<!ELEMENT ano (#PCDATA)>
+<!ELEMENT duracion (#PCDATA)>
+
+<!ELEMENT estudios (instituto, grado)>
+<!ELEMENT instituto (instituto_nombre, instituto_descripcion, instituto_años)>
+<!ELEMENT instituto_nombre (#PCDATA)>
+<!ELEMENT instituto_descripcion (#PCDATA)>
+<!ELEMENT instituto_años (#PCDATA)>
+<!ELEMENT grado (grado_nombre, grado_descripcion, grado_años)>
+<!ELEMENT grado_nombre (#PCDATA)>
+<!ELEMENT grado_descripcion (#PCDATA)>
+<!ELEMENT grado_años (#PCDATA)>
+
+<!ELEMENT idiomas (idioma+)>
+<!ELEMENT idioma (idioma_nombre, nivel)>
+<!ELEMENT idioma_nombre (#PCDATA)>
+<!ELEMENT nivel (#PCDATA)>
