@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tickets SYSTEM "dtd6.dtd">
+
+<!-- Ticket 1-->  
+<tickets>
+    <ticket>
+        <membrete>
+            <cif>12345678H</cif>
+            <razon_social>Empresa X</razon_social>
+            <pagina_web>www.empresax.com</pagina_web>
+            <codigo_sucursal>001</codigo_sucursal>
+            <nombre_sucursal>Sucursal Centro</nombre_sucursal>
+            <direccion>Calle Ejemplo 1</direccion>
+            <codigo_postal>28001</codigo_postal>
+            <poblacion>Madrid</poblacion>
+            <telefono>912345678</telefono>
+            <telefono>600123456</telefono>
+        </membrete>
+        <cabecera>
+            <numero_ticket>1001</numero_ticket>
+            <fecha_emision>2024-11-11</fecha_emision>
+            <hora_emision>14:30</hora_emision>
+            <nombre_empleado>Juan</nombre_empleado>
+        </cabecera>
+        <lineas>
+            <linea>
+                <cantidad>2</cantidad>
+                <codigo_articulo>A123</codigo_articulo>
+                <descripcion>Lapiz</descripcion>
+                <precio_unitario>1.20</precio_unitario>
+                <importe>2.40</importe>
+            </linea>
+            <linea>
+                <cantidad>1</cantidad>
+                <codigo_articulo>B456</codigo_articulo>
+                <descripcion>Cuaderno</descripcion>
+                <precio_unitario>3.00</precio_unitario>
+                <importe>3.00</importe>
+            </linea>
+            <linea>
+                <cantidad>5</cantidad>
+                <codigo_articulo>C789</codigo_articulo>
+                <descripcion>Boli</descripcion>
+                <precio_unitario>0.50</precio_unitario>
+                <importe>2.50</importe>
+            </linea>
+        </lineas>
+        <resumen>
+            <forma_pago>tarjeta</forma_pago>
+            <importe_total>7.90</importe_total>
+        </resumen>
+    </ticket>
+
+    <!-- Ticket 2-->   
+    <ticket>
+        <membrete>
+            <cif>87654321B</cif>
+            <razon_social>Empresa X</razon_social>
+            <pagina_web>www.empresa.com</pagina_web>
+            <codigo_sucursal>002</codigo_sucursal>
+            <nombre_sucursal>Sucursal Norte</nombre_sucursal>
+            <direccion>Calle Norte 897</direccion>
+            <codigo_postal>28002</codigo_postal>
+            <poblacion>Madrid</poblacion>
+            <telefono>913456789</telefono>
+            <telefono>610987654</telefono>
+        </membrete>
+        <cabecera>
+            <numero_ticket>1002</numero_ticket>
+            <fecha_emision>2024-11-11</fecha_emision>
+            <hora_emision>16:00</hora_emision>
+            <nombre_empleado>Ana</nombre_empleado>
+        </cabecera>
+        <lineas>
+            <linea>
+                <cantidad>3</cantidad>
+                <codigo_articulo>D321</codigo_articulo>
+                <descripcion>Carpeta</descripcion>
+                <precio_unitario>2.00</precio_unitario>
+                <importe>6.00</importe>
+            </linea>
+            <linea>
+                <cantidad>2</cantidad>
+                <codigo_articulo>E654</codigo_articulo>
+                <descripcion>Goma</descripcion>
+                <precio_unitario>0.75</precio_unitario>
+                <importe>1.50</importe>
+            </linea>
+        </lineas>
+        <resumen>
+            <forma_pago>efectivo</forma_pago>
+            <importe_total>7.50</importe_total>
+        </resumen>
+    </ticket>
+</tickets>
