@@ -1,0 +1,31 @@
+<!ELEMENT tickets (ticket+)>
+
+<!ELEMENT ticket (membrete, cabecera, lineas, resumen)>
+<!ELEMENT membrete (cif, razon_social, pagina_web, codigo_sucursal, nombre_sucursal, direccion, codigo_postal, poblacion, telefono+)>
+<!ELEMENT cif (#PCDATA)>
+<!ELEMENT razon_social (#PCDATA)>
+<!ELEMENT pagina_web (#PCDATA)>
+<!ELEMENT codigo_sucursal (#PCDATA)>
+<!ELEMENT nombre_sucursal (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT codigo_postal (#PCDATA)>
+<!ELEMENT poblacion (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+
+<!ELEMENT cabecera (numero_ticket, fecha_emision, hora_emision, nombre_empleado)>
+<!ELEMENT numero_ticket (#PCDATA)>
+<!ELEMENT fecha_emision (#PCDATA)>
+<!ELEMENT hora_emision (#PCDATA)>
+<!ELEMENT nombre_empleado (#PCDATA)>
+
+<!ELEMENT lineas (linea+)>
+<!ELEMENT linea (cantidad, codigo_articulo, descripcion, precio_unitario, importe)>
+<!ELEMENT cantidad (#PCDATA)>
+<!ELEMENT codigo_articulo (#PCDATA)>
+<!ELEMENT descripcion (#PCDATA)>
+<!ELEMENT precio_unitario (#PCDATA)>
+<!ELEMENT importe (#PCDATA)>
+
+<!ELEMENT resumen (forma_pago, importe_total)>
+<!ELEMENT forma_pago (#PCDATA)>
+<!ELEMENT importe_total (#PCDATA)>
