@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE curriculum SYSTEM "dtd7.dtd">
+
+<facturas>
+
+    <factura id="F1">
+
+        <membrete>
+            <cif>B12345678</cif>
+            <razon_social>Tech Solutions S.L.</razon_social>
+            <direccion>Calle Mayor, 45</direccion>
+            <codigo_postal>28013</codigo_postal>
+            <poblacion>Madrid</poblacion>
+            <telefono>+34 912 345 678</telefono>
+            <email>contacto@techsolutions.es</email>
+            <fecha_emision>15-02-2021</fecha_emision>
+        </membrete>
+
+        <datos_cliente>
+            <dni>12345678Z</dni>
+            <nombre>Carlos Gómez</nombre>
+            <direccion>Avenida del Sol, 12</direccion>
+            <codigo_postal>28014</codigo_postal>
+            <poblacion>Madrid</poblacion>
+        </datos_cliente>
+
+        <productos>
+            <producto id="P1">
+                <cantidad>3</cantidad>
+                <descripcion>Teclado mecánico</descripcion>
+                <precio_unidad>50.00</precio_unidad>
+                <iva>21</iva>
+            </producto>
+            <producto id="P2">
+                <cantidad>10</cantidad>
+                <descripcion>Monitor 24''</descripcion>
+                <precio_unidad>150.00</precio_unidad>
+                <iva>21</iva>
+            </producto>
+            <producto id="P3">
+                <cantidad>2</cantidad>
+                <descripcion>Ratón inalámbrico</descripcion>
+                <precio_unidad>25.00</precio_unidad>
+                <iva>21</iva>
+            </producto>
+        </productos>
+
+        <resumen forma_pago="tarjeta">
+            <descuento_aplicado>5.00</descuento_aplicado>
+        </resumen>
+
+    </factura>
+
+    <factura id="F2">
+
+        <membrete>
+            <cif>B12345678</cif>
+            <razon_social>Tech Solutions S.L.</razon_social>
+            <direccion>Calle Mayor, 45</direccion>
+            <codigo_postal>28013</codigo_postal>
+            <poblacion>Madrid</poblacion>
+            <telefono>+34 912 345 678</telefono>
+            <email>contacto@techsolutions.es</email>
+            <fecha_emision>20-02-2021</fecha_emision>
+        </membrete>
+
+        <datos_cliente>
+            <dni>87654321X</dni>
+            <nombre>Ana López</nombre>
+            <direccion>Calle de la Luna, 34</direccion>
+            <codigo_postal>28001</codigo_postal>
+            <poblacion>Madrid</poblacion>
+        </datos_cliente>
+
+        <productos>
+            <producto id="P1">
+                <cantidad>1</cantidad>
+                <descripcion>Portátil 15''</descripcion>
+                <precio_unidad>800.00</precio_unidad>
+                <iva>21</iva>
+            </producto>
+            <producto id="P2">
+                <cantidad>80</cantidad>
+                <descripcion>Docking Station</descripcion>
+                <precio_unidad>120.00</precio_unidad>
+                <iva>21</iva>
+            </producto>
+            <producto id="P3">
+                <cantidad>5</cantidad>
+                <descripcion>Cable HDMI</descripcion>
+                <precio_unidad>10.00</precio_unidad>
+                <iva>21</iva>
+            </producto>
+        </productos>
+
+        <resumen forma_pago="efectivo">
+            <descuento_aplicado>20.00</descuento_aplicado>
+        </resumen>
+
+    </factura>
+
+</facturas>
